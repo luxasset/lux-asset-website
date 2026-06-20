@@ -13,7 +13,9 @@
       "Bash(git commit -q -m ' *)",
       "Bash(git config *)",
       "Bash(echo \"name: $\\(git config user.name\\)\")",
-      "Bash(echo \"email: $\\(git config user.email\\)\")"
+      "Bash(echo \"email: $\\(git config user.email\\)\")",
+      "Bash(gh auth *)",
+      "PowerShell($gh = Get-Command gh -ErrorAction SilentlyContinue; if \\($gh\\) { \"gh found: $\\($gh.Source\\)\"; gh auth status } else { \"gh NOT installed\" }; \"---\"; git config --global credential.helper)"
     ]
   }
 }
