@@ -40,7 +40,7 @@ export default function Hero() {
         >
           <a
             href="#properties"
-            className="rounded-full bg-[#6b4423] px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-all hover:scale-105 hover:bg-[#8a5c33]"
+            className="rounded-full bg-[#c9a227] px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-all hover:scale-105 hover:bg-[#d4af37]"
           >
             Explore Properties
           </a>

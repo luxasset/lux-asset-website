@@ -54,7 +54,7 @@ export default function Navbar() {
           ))}
           <a
             href="#contact"
-            className="rounded-full bg-[#6b4423] px-6 py-2.5 text-sm font-semibold text-white transition-all hover:bg-[#1e3a8a] hover:scale-105"
+            className="rounded-full bg-[#c9a227] px-6 py-2.5 text-sm font-semibold text-white transition-all hover:bg-[#1e3a8a] hover:scale-105"
           >
             Get in Touch
           </a>
